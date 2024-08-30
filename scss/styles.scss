@@ -3,7 +3,7 @@ nav{
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    width: 12%;
+    width: 15%;
     height: 5%;
 }
 
@@ -11,6 +11,16 @@ nav{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    margin: 0.5%;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 20px;
+    background-color: #BFC0C0
+}
+
+#nav li{
+    background-color: #EF8354;
+    padding: 2%;
+    border-radius: 20px;
 }
