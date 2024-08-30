@@ -2,11 +2,7 @@
 <html>
     <head>
         <link href="./styles/styles.css" rel="stylesheet">
-        <!-- Swiper's CSS -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-        <!-- Swiper's JavaScript -->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     </head>
     <body>
         <nav>
@@ -23,10 +19,23 @@
                 <h3>Software-engineering self-learner</h3>
                 <h3>Highschooler</h3>
             </div>
-            <img src="./styles/pdp alex 2.png" alt="Alexandre's profil picture" id="pdp">
+            <img src="./styles/pdp alex 2.png" alt="Alexandre's profile picture" id="pdp">
         </header>
         <div id="experience">
-            <img src="styles/codacademy logo.webp">
+            <img src="styles/codacademy logo.webp" alt="Codacademy logo">
+            <!-- Swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>

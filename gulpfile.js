@@ -18,8 +18,8 @@ function watch() {
         }
     });
     gulp.watch('./scss/**/*.scss', style); // Surveille les changements dans les fichiers SCSS
-    gulp.watch('./*.html').on('change', browserSync.reload); // Recharge le navigateur sur les changements HTML
-    gulp.watch('./js/**/*.js').on('change', browserSync.reload); // Recharge le navigateur sur les changements JS
+    gulp.watch('./index.html').on('change', browserSync.reload); // Recharge le navigateur sur les changements HTML
+    gulp.watch('./main.js').on('change', browserSync.reload); // Recharge le navigateur sur les changements JS
 }
 
 // Exportation des tâches
