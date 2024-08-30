@@ -1,10 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: #767981;
+    color: #FFFFFF;
+}
+
 nav{
     position: fixed;
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
-    width: 15%;
-    height: 5%;
+    width: 20%;
+    height: auto
 }
 
 #nav{
@@ -16,11 +32,11 @@ nav{
     padding-left: 4%;
     padding-right: 4%;
     border-radius: 20px;
-    background-color: #BFC0C0
+    background-color: #EF8354;
 }
 
 #nav li{
-    background-color: #EF8354;
+    background-color: #2D3142;
     padding: 2%;
     border-radius: 20px;
 }
@@ -28,6 +44,19 @@ nav{
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 20%;
+    background-color: #2D3142;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 2rem;
 }
 
 #pdp{
