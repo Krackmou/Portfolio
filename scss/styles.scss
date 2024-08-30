@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Panther';
+    src: url('./Panther Hunter Personal Use Only.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ html, body {
 }
 
 body{
-    background-color: #767981;
+    background-color: #22223B;
     color: #FFFFFF;
 }
 
@@ -27,16 +32,17 @@ nav{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0.5%;
+    margin: 1%;
     padding: 2%;
     padding-left: 4%;
     padding-right: 4%;
     border-radius: 20px;
-    background-color: #EF8354;
+    background-color: #4A4E69;
 }
 
 #nav li{
-    background-color: #2D3142;
+    background-color: #C9ADA7;
+    color: black;
     padding: 2%;
     border-radius: 20px;
 }
@@ -46,13 +52,16 @@ header{
     justify-content: center;
     align-items: center;
     gap: 20%;
-    background-color: #2D3142;
+    background-color: #9A8C98;
     padding: 0;
     margin: 0;
+    height: 50%;
 }
 
 h1{
     font-size: 5rem;
+    font-family: 'Panther', sans-serif;
+    letter-spacing: 2px;
 }
 
 h3{
