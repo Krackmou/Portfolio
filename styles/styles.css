@@ -24,3 +24,12 @@ nav {
   padding: 2%;
   border-radius: 20px;
 }
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#pdp {
+  border-radius: 400px;
+}
