@@ -90,6 +90,17 @@ h3{
 }
 
 .flex img{
-    width: 10vw;
+    width: 7vw;
     height: auto;
+}
+
+#flex-lang{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flex-lang img{
+    width: 5vw;
+    height: auto;
+    padding: 10px;
 }
