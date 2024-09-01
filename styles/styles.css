@@ -19,13 +19,14 @@ nav {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 20%;
-  height: auto;
+  width: 15%;
+  height: 5%;
 }
 
 #nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
   list-style-type: none;
   margin: 0.5%;
   padding: 2%;
@@ -33,22 +34,29 @@ nav {
   padding-right: 4%;
   border-radius: 20px;
   background-color: #EF8354;
+  z-index: 5;
 }
 
 #nav li {
   background-color: #2D3142;
   padding: 2%;
   border-radius: 20px;
+  z-index: 5;
 }
 
 header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20%;
   background-color: #2D3142;
   padding: 0;
   margin: 0;
+  height: 60vh;
+}
+
+#name {
+  padding-left: 10vw;
+  width: 65vw;
 }
 
 h1 {
@@ -59,14 +67,34 @@ h3 {
   font-size: 2rem;
 }
 
+#circle-container {
+  position: relative;
+  width: 60vw;
+  height: 40vw;
+  border-radius: 50%;
+  overflow: visible;
+  background-color: #2D3142;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
 #pdp {
-  border-radius: 400px;
+  border-radius: 50%;
+  width: 30vw;
+  height: auto;
+  z-index: 3;
+}
+
+#experience {
+  margin-top: 2vh;
 }
 
 #experience h2 {
-  text-align: center;
+  text-align: left;
   font-size: 3.5rem;
-  padding-top: 2vh;
+  padding-left: 15vw;
 }
 
 #big {
@@ -83,15 +111,18 @@ h3 {
   background-color: #EF8354;
   border-radius: 50px;
   margin: 2%;
+  z-index: 0;
 }
 
 .flex h3 {
   padding: 30px;
+  text-align: center;
 }
 
 .flex img {
-  width: 7vw;
-  height: auto;
+  width: auto;
+  height: 7vw;
+  padding: 5px;
 }
 
 #flex-lang {
@@ -103,4 +134,35 @@ h3 {
   width: 5vw;
   height: auto;
   padding: 10px;
+}
+
+#transition {
+  height: 5vh;
+  background: rgb(118, 121, 129);
+  background: linear-gradient(180deg, rgb(118, 121, 129) 0%, rgb(159, 112, 101) 100%);
+}
+
+#contact {
+  background-color: #9F7065;
+  height: 40vh;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+#contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+  margin: 5vh;
+}
+
+#contact-flex div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
