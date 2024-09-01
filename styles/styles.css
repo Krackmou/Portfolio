@@ -5,8 +5,8 @@
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   overflow-x: hidden;
 }
 
@@ -20,8 +20,8 @@ nav {
   left: 50%;
   bottom: 0;
   transform: translateX(-50%);
-  width: 15%;
-  height: 5%;
+  width: 40vw;
+  height: 5vh;
 }
 
 #nav {
@@ -52,7 +52,7 @@ header {
   background-color: #2D3142;
   padding: 0;
   margin: 0;
-  height: 60vh;
+  height: 40vh;
 }
 
 #name {
@@ -145,7 +145,8 @@ h3 {
 
 #contact {
   background-color: #9F7065;
-  height: 40vh;
+  height: 35vw;
+  margin-top: 0vh;
 }
 
 #contact h2 {
@@ -165,9 +166,15 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 30vw;
 }
 
 #contact-flex div img {
-  width: 30%;
+  width: 15vw;
+  height: 15vw;
+  align-self: center;
+}
+
+#contact-flex div h3 {
+  align-self: center;
 }
