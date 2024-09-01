@@ -146,7 +146,6 @@ h3{
 #contact{
     background-color: #9F7065;
     height: 35vw;
-    margin-top: 0vh;
 }
 
 #contact h2{
@@ -179,6 +178,21 @@ h3{
     align-self: center;
 }
 
-@media (max-width:960px){
-    
+@media (min-width:960px){
+    #contact{
+        height: 35vw;
+    }
+
+    #contact-flex{
+        margin-top: 1vh;
+        gap: 10vw;
+    }
+
+    #contact-flex div h3{
+        font-size: 1.5rem;
+    }
+
+    body{
+
+    }
 }
